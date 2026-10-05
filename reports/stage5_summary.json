@@ -1,0 +1,27 @@
+{
+  "analysis_cutoff": "2011-12-01",
+  "anchor_days_after_first_order": 14,
+  "followup_days_after_anchor": 30,
+  "historical_complete_customers": 2666,
+  "historical_repeat_customers": 485,
+  "historical_repeat_pct": 18.192048012003,
+  "historical_wilson_95_pct": [
+    16.77376336103601,
+    19.701865392247846
+  ],
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "allocation": "1:1",
+  "planning_uplift_pp": 5,
+  "required_n_per_group_for_5pp": 1030,
+  "required_total_n_for_5pp": 2060,
+  "illustrative_269_power_for_5pp_pct": 17.213970053609007,
+  "illustrative_269_mde_pp": 14.87756965367577,
+  "experiment_conducted": false,
+  "checks": [
+    "day14_sql_pandas_all_customers",
+    "unobserved_outcomes_null",
+    "power_at_null",
+    "minimum_integer_sample_size"
+  ]
+}

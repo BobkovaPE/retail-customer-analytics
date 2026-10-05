@@ -1,0 +1,43 @@
+{
+  "snapshot": "2011-12-01",
+  "identified_customers": 4293,
+  "weighted_m1_retention_jan_oct_pct": 19.734283862605313,
+  "repeat_30d_jan_oct_eligible_customers": 3086,
+  "repeat_30d_jan_oct_customers": 547,
+  "repeat_30d_jan_oct_pct": 17.725210628645495,
+  "november_repeat_30d_is_unobserved": true,
+  "monetary_p75_gbp": 1573.2,
+  "segment_customers": {
+    "Активные ценные": 678,
+    "Активные повторные": 808,
+    "Недавние однократные": 269,
+    "Давно не покупавшие повторные": 589,
+    "Остальные": 1949
+  },
+  "segment_sales_pct": {
+    "Активные ценные": 62.12525044703473,
+    "Активные повторные": 14.450264757639575,
+    "Недавние однократные": 1.1131416473083864,
+    "Давно не покупавшие повторные": 7.681897092393319,
+    "Остальные": 14.629446055623987
+  },
+  "top20_customer_count": 859,
+  "top20_known_sales_pct": 73.95271979323346,
+  "dedup_changed_segments": 4,
+  "dedup_monetary_p75_gbp": 1569.32,
+  "dedup_top20_known_sales_pct": 74.01811981105391,
+  "top20_known_sales_pct_without_541431": 73.73068650650919,
+  "cancellation_review_customers": 25,
+  "recent_one_order_cancellation_review_customers": 1,
+  "same_first_timestamp_extra_invoices": 14,
+  "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "checks": [
+    "cohort_sql_pandas",
+    "cohort_future_mask",
+    "repeat_30d_sql_pandas",
+    "rfm_control_totals",
+    "segment_partition",
+    "concentration_totals",
+    "dedup_rfm_comparison"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "seed": 20261005,
+  "repetitions_per_scenario": 200000,
+  "n_per_group": 1030,
+  "baseline": 0.18192048012002998,
+  "null_rejection_rate": 0.050205,
+  "power_at_5pp": 0.79922,
+  "note": "Monte Carlo verification of planning approximation; not campaign outcomes."
+}

@@ -1,0 +1,47 @@
+{
+  "analysis_start": "2010-12-01",
+  "analysis_end_exclusive": "2011-12-01",
+  "raw_rows": 541909,
+  "raw_missing_customer_id": 135080,
+  "raw_missing_customer_id_pct": 24.926694334288598,
+  "raw_missing_description": 1454,
+  "raw_duplicate_beyond_first": 5268,
+  "raw_cancellation_rows": 9288,
+  "purchase_lines": 502730,
+  "orders": 18957,
+  "identified_orders": 17626,
+  "identified_customers": 4293,
+  "gross_sales_gbp": 9655939.793,
+  "identified_gross_sales_gbp": 8247836.222999999,
+  "order_coverage_pct": 92.97884686395527,
+  "sales_coverage_pct": 85.4172291854927,
+  "included_duplicate_rows": 4943,
+  "duplicate_sales_delta_gbp": 23211.390000000596,
+  "duplicate_sales_delta_pct": 0.24038457672268748,
+  "retained_orders_multiple_timestamps": 42,
+  "cancellation_rows_in_window": 8928,
+  "cancellation_invoices_in_window": 3690,
+  "goods_cancellation_signed_amount_gbp": -304597.42000000004,
+  "largest_order_gbp": 77183.6,
+  "largest_invoice_no": "541431",
+  "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "checks_passed": [
+    "row_accounting",
+    "invoice_and_month_reconciliation",
+    "order_uniqueness",
+    "sqlite_integrity"
+  ],
+  "cleaning_counts": {
+    "included": 502730,
+    "excluded_code": 2263,
+    "cancellation": 8928,
+    "non_positive_price": 1157,
+    "non_positive_quantity": 1306,
+    "outside_window": 25525
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  }
+}

@@ -1,0 +1,33 @@
+stock_code,rows,description_example,excluded_code_type,signed_amount_all_dates_gbp
+AMAZONFEE,34,AMAZON FEE,fee,-221520.5
+B,3,Adjust bad debt,bad_debt_adjustment,-11062.06
+BANK CHARGES,37,Bank Charges,fee,-7175.639
+C2,144,CARRIAGE,delivery,6986.0
+CRUK,16,CRUK Commission,commission,-7933.43
+D,77,Discount,discount,-5696.22
+DCGS0003,5,BOXED GLASS ASHTRAY,,9.94
+DCGS0004,1,HAYNES CAMPER SHOULDER BAG,,16.63
+DCGS0055,1,,,0.0
+DCGS0057,1,,,0.0
+DCGS0066P,1,,,0.0
+DCGS0067,1,ebay,,0.0
+DCGS0068,1,ebay,,0.0
+DCGS0069,2,OOH LA LA DOGS COLLAR,,15.79
+DCGS0070,2,CAMOUFLAGE DOG COLLAR,,12.72
+DCGS0071,1,,,0.0
+DCGS0072,1,,,0.0
+DCGS0073,1,ebay,,0.0
+DCGS0074,1,,,0.0
+DCGS0076,2,SUNJAR LED NIGHT NIGHT LIGHT,,48.39
+DCGSSBOY,11,BOYS PARTY BAG,,150.54999999999998
+DCGSSGIRL,13,GIRLS PARTY BAG,,144.43
+DOT,710,DOTCOM POSTAGE,delivery,206245.48
+GIFT_0001_10,9,Dotcomgiftshop Gift Voucher £10.00,gift_voucher,74.97
+GIFT_0001_20,10,Dotcomgiftshop Gift Voucher £20.00,gift_voucher,167.05
+GIFT_0001_30,8,Dotcomgiftshop Gift Voucher £30.00,gift_voucher,175.53
+GIFT_0001_40,3,Dotcomgiftshop Gift Voucher £40.00,gift_voucher,100.69999999999999
+GIFT_0001_50,4,Dotcomgiftshop Gift Voucher £50.00,gift_voucher,167.56
+M,572,Manual,manual,-68671.64
+PADS,4,PADS TO MATCH ALL CUSHIONS,,0.003
+POST,1256,POSTAGE,delivery,66230.64
+S,63,SAMPLES,samples,-3049.39

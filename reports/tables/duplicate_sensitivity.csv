@@ -1,0 +1,3 @@
+variant,lines,orders,gross_sales_gbp
+keep_exact_duplicates,502730,18957,9655939.793
+drop_exact_duplicates,497787,18957,9632728.402999999
